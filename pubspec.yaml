@@ -1,0 +1,48 @@
+name: leadhunter
+description: Find local businesses without websites — your next freelance lead.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.14.0
+
+  # State management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+
+  # Navigation
+  go_router: ^13.0.1
+
+  # UI & fonts
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+  gap: ^3.0.1
+
+  # Networking
+  http: ^1.2.0
+
+  # Utils
+  shared_preferences: ^2.2.2
+  email_validator: ^2.1.17
+  url_launcher: ^6.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.7
+  riverpod_generator: ^2.3.9
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
